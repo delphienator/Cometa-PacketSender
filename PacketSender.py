@@ -35,13 +35,13 @@ def send_packet(dest_ip,dest_port,payload):
 # source interface, destination IP, dest port, payload
 
 #iface=str(input("Enter your source interface:"))
-#dest_ip=str(input("Enter your destination interface:"))
-#dest_port=int(input("Enter your destination port:"))
-#payload=str(input("Enter UDP payload of your packet in HEX format:"))
+dest_ip=str(input("Enter your destination ip address:"))
+dest_port=int(input("Enter your destination port:"))
+payload=str(input("Enter UDP payload of your packet in HEX format:"))
 
-dest_ip="172.1.1.1"
-dest_port=4000
-payload="1234567890"
+#dest_ip="172.1.1.1"
+#dest_port=4000
+#payload="1234567890"
 
 
 send_packet(dest_ip,dest_port,payload)
